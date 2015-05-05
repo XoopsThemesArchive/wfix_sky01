@@ -1,0 +1,114 @@
+body {color: #000000; background: #FFFFFF; margin-top: 15px; padding: 0; text-align: center; font-size: 95%;}
+
+.contents {width: 800px; margin: auto; text-align: left;}
+.main{margin: 0; padding: 0; border-right: 1px solid #66ccff; border-left: 1px solid #66ccff;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+
+a {color: #000000; text-decoration: none; background-color: transparent;}
+a:hover {color: #0099ff; font-weight: bold;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 5px; list-style: disc inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #0099ff;}
+
+input {color:#000000; border:1px solid #66ccff; margin: 1px; padding-top:3px; background-color: #ffffff;}
+textarea {color:#000000; border:1px solid #66ccff; margin: 1px; background-color: #ffffff;}
+
+.item {border: 1px solid #66ccff; padding: 5px;}
+.itemHead {padding: 3px; border-bottom: 1px solid #66ccff;}
+.itemInfo {text-align: right; padding: 3px; }
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 5px;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+th {background-color: #66ccff; color: #000000; padding : 2px; vertical-align : middle;}
+
+td#headerlogo {background-color: #ffffff; paffing: 0px; background-image: url(./image/titleback.gif); background-repeat: no-repeat; padding: 0px; text-align: left;}
+td#headerbanner {width: 100%; background-color: #ccffff; vertical-align: middle; text-align:center;}
+td#headerbar {padding: 5px; vertical-align: middle; background-color: #ffffff; text-align: right; border-left: 1px solid #66ccff; border-right: 1px solid #66ccff;}
+
+td#leftcolumn {width: 150px; padding: 10px; border-right: 1px dotted #66ccff;}
+td#leftcolumn th {background-color: #66ccff; color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {background-image: url(./image/tab.gif); background-repeat: no-repeat; padding: 2px; color: #ffffff;text-align: left;}
+td#leftcolumn div.blockContent {	border: solid 2px #66ccff ;background-color: #FFFFFF; margin-left:0px;padding: 0px; line-height: 120%; margin-bottom: 10px;}
+
+
+td#centercolumn {padding: 10px;}
+
+td#centerCcolumn {padding: 0px 5px 5px 5px;}
+td#centerCcolumn div.blockTitle {background-color: #fffff; padding: 3px; border-bottom: 5px double #66ccff; color: #000000; font-weight: bold; font-size: 120%;}
+td#centerCcolumn div.blockContent {padding: 5px; margin: 3px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 5px;}
+td#centerLcolumn div.blockTitle {background-color: #fffff; color: #000000; font-weight: bold; padding: 3px; font-size: 120%;}
+td#centerLcolumn div.blockContent {padding: 5px; line-height: 120%; border: 1px solid #66ccff;}
+
+td#centerRcolumn {width: 50%; padding: 5px;}
+td#centerRcolumn div.blockTitle {background-color: #fffff; color: #000000; font-weight: bold; padding: 3px; font-size: 120%;}
+td#centerRcolumn div.blockContent {padding: 5px; line-height: 120%; border: 1px solid #66ccff;}
+
+div#content {text-align: left; padding: 8px;}
+div#content div.blockTitle {background-color: #fffff; padding: 3px; border-bottom: 5px double #66ccff; color: #000000; font-weight: bold; font-size: 150%;}
+
+td#rightcolumn {width: 150px; padding: 10px; border-left: 1px dotted #66ccff;}
+td#rightcolumn th {background-color: #66ccff; color: #FFFFFF; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 3px; background-color: #66ccff; color: #FFFFFF; font-weight: bold; text-align: center;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%; margin-bottom: 10px;}
+
+tr#footerbar {text-align:center; background-color: #ffffff; padding: 0px;}
+td#footerbar02 {margin: 0px; padding: 5px; border-left: solid 1px #66ccff; border-right: solid 1px #66ccff;}
+
+td#mainmenu a {background-color: #ffffff; display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {background-color: #ccffff;}
+td#mainmenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left:}
+td#mainmenu a.menuSub {padding-left: 9px;}
+
+td#usermenu a {background-color: #ffffff; display: block; margin: 0; padding: 4px;}
+td#usermenu a:hover {background-color: #ccffff;}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {background-color: #66ccff;}
+
+
+
+.outer {border: 1px solid #66ccff;}
+.outer td {padding: 5px;}
+.head {background-color: #66ccff; font-weight: bold;}
+.even {background-color: #ccffff;}
+.odd {background-color: #ffffff;}
+.foot {background-color: #66ccff; font-weight: bold;}
+tr.even td {background-color: #ccffff;}
+tr.odd td {background-color: #ffffff;}
+
+div.errorMsg { background-color: #ffffff; text-align: center; border-top: 1px solid #66ccff; border-left: 1px solid #66ccff; border-right: 1px solid #66ccff; border-bottom: 1px solid #66ccff; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #ffffff; color: #000000; text-align: center; border-top: 1px solid #66ccff; border-left: 1px solid #66ccff; border-right: 1px solid #66ccff; border-bottom: 1px solid #66ccff; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #ffffff; color: #000000; text-align: center; border-top: 1px solid #66ccff; border-left: 1px solid #66ccff; font-weight: bold; border-right: 1px solid #66ccff; border-bottom: 1px solid #66ccff; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #66ccff; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #66ccff; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #66ccff; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
